@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'db_helvethaicamon_x65_med';
+    src: url('/assets/fonts/dbhelvethaicamonxmedv3.2_0-webfont.eot');
+    src: url('/assets/fonts/dbhelvethaicamonxmedv3.2_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/dbhelvethaicamonxmedv3.2_0-webfont.woff2') format('woff2'),
+         url('/assets/fonts/dbhelvethaicamonxmedv3.2_0-webfont.woff') format('woff'),
+         url('/assets/fonts/dbhelvethaicamonxmedv3.2_0-webfont.ttf') format('truetype'),
+         url('/assets/fonts/dbhelvethaicamonxmedv3.2_0-webfont.svg#db_helvethaicamon_x65_med') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: 'db_helvethaicamon_x65_med';
+    background-image: url(/assets/images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    padding-bottom: 5%;
+
+}
+
+.logo{
+	margin-top: 120px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.quote{
+	text-align: center;
+}
+
+.form{
+	margin-top: 10%;
+	width: 580px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.usernameText{
+	font-size: 4em;
+}
+.passwordText{
+	font-size: 4em;
+	margin-top: 35px;
+}
+.input-form{
+	margin-left: 10px;
+	width: 100%;
+	font-size: 4.2em;
+	border-radius: 90px;
+	webkit-border-radius: 90px;
+	moz-border-radius: 90px;  
+	padding: 0px 50px 0px 50px;
+	background-color: #e1e1e1;
+	border: solid 5px #ccdd27;
+}
+
+.input-form:focus{
+	outline: 0;
+}
+
+.button-submit{
+	margin-top: 50%;
+	text-align: center;
+	padding-left: 10px;
+}
